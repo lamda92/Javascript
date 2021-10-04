@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="JS Notes.css">    
+    <title>JS Notes</title>
+</head>
+<body>
+    <h1>JS Notes</h1>
+    <div>
+        <h3>Console in browser</h3>
+        <ul>
+            <li>REPL - read, evaluate, print, loop</li>
+        </ul>
+    </div>
+    <div class="primType">
+        <h3>Primitive Types</h3>
+        <ul>
+            <li>Number
+                <ul>
+                    <li>Positive, negative, whole, decimals (hard limit to number of decimal places stored)</li>
+                    <li>Modulo - remainder operator, uses % operator, gives remainder after dividing, to determine if number is odd/even</li>
+                    <li>Exponent operator (**)</li>
+                    <li>NaN = not a number, ex. 0/0, but still considered a number by JS</li>
+                </ul>    
+            </li>
+            <li>Variables
+                <ul>
+                    <li>let - sets a variable equal to something</li>
+                    <li>const - sets variable equal to number but the value cannot change</li>
+                    <li>Use camel-case for variable naming, variable names are case-sensitive</li>
+                </ul>
+            </li>
+            <li>Strings
+                <ul>
+                    <li>Represents text, must be wrapped in quotes</li>
+                    <li>Strings are indexed, each character has a positional number</li>
+                    <li>All strings have same methods</li>
+                    <li>thing.method()</li>
+                    <li>thing.toUpperCase()</li>
+                    <li>thing.trim()</li>
+                    <li>Can chain methods together</li>
+                    <li>can add arguments inside parentheses of methods to modify the behavior</li>
+                    <li>Methods that can pass multiple arguments: slice, replace</li>
+                    <li>Template literals - need to use back-ticks, can embed expressions inside a string, i.e., `blah blah ${expression} blah blah`</li>
+                </ul>
+            </li>
+            <li>Boolean
+                <ul>
+                    <li>true or false</li>
+                </ul>
+            </li>
+            <li>Null
+                <ul>
+                    <li>Intentional absence of any value, must be assigned</li>
+                </ul>
+            </li>
+            <li>Undefined
+                <ul>
+                    <li>variables that do not have an assigned value</li>
+                </ul>
+            </li>
+            <li>Math Object
+                <ul>
+                    <li>Collection of properties</li>
+                </ul>
+            </li>
+        </ul>
+    </div> 
+    <div>
+        <h3>Running Javascript</h3>
+        <ul>
+            <li>Put script at the end of the body, script with src attribute</li>
+            <li>In js file, put console.log() to output message to the web console</li>
+            <li>Web console is a good place to test and debug code, but will not store any code after you exit</li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.primType ul li{
+    font-weight: 700;
+    color: red;
+}
+
+.primType ul li li{
+    font-weight: 100;
+    color: black;
+}
