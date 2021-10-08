@@ -9,6 +9,20 @@
 // if entry = delete then use splice to delete the item, display msg saying that item was deleted
 // if entry - quit then break and exit loop, print out "OK, YOU QUIT"
 
+// function dispatch(cmd) {
+//     switch (cmd) {
+//         case list:
+//         case show:
+//             listTodo();
+//             break;
+//         case 'delete':
+//             deleteItem();
+//             break;
+               
+
+//     }
+
+// }
 
 const todoList = [];
 
