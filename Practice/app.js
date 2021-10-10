@@ -111,8 +111,9 @@
 //     console.log(`Visit reddit.com/r/${sub}`)
 // }
 
-function singSong(){
-    console.log("DO")
-    console.log("RE")
-    console.log("MI")
-}
+// function singSong(){
+//     console.log("DO")
+//     console.log("RE")
+//     console.log("MI")
+// }
+
