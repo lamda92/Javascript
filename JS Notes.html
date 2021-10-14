@@ -170,6 +170,54 @@
                                     <li>Returning a function - can store a function in a variable by running another function. Then, can pass an argument through the variable.</li>
                                 </ul>
                             </li>
+                            <li>Method - function placed as a property on an object</li>
+                            <li>This keyword
+                                <ul>
+                                    <li>usually used in a method</li>
+                                    <li>value depends on the invocation context of the function it's used in</li>
+                                </ul>
+                            </li>
+                            <li>Try/Catch - can wrap code in 'try' and if there is an error, can output something from 'catch' without breaking the rest of the code</li>
+                            <li>Array Methods - will require us to pass in functions
+                                <ul>
+                                    <li>forEach - calls function once per element in array. (For...of is now more common to use)</li>
+                                    <li>Map - creates a new array with the results of calling a callback on every element in the array</li>
+                                    <li>Arrow functions - new syntax for defining functions, used to create function expressions
+                                        <ul>
+                                            <li>const variable = (x,y) => {return expression}</li>
+                                            <li>implicit return - can leave off return keyword under certain situations. Only works for one expression
+                                                <ul>
+                                                    <li>Using parentheses instead of curly brackets: const variable = (x,y) => (expression)</li>
+                                                    <li>Can use without parentheses if expression is short: const variable = (x,y) => x + y</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>setTimeout and setInterval - delay or pause to execution of code. Use clear(id) to stop the interval</li>
+                            <li>Filter - create subset in a new array</li>
+                            <li>'every' method - tests if every element in the array passes a condition, returns boolean value</li>
+                            <li>'some' method - tests if at least one element in the array passes a condition, returns boolean value</li>
+                            <li>Reduce method - take an array to reduce to single value, i.e., sum, product, min, max, etc. Can add second argument to specify intial value</li>
+                            <li>array.reduce((min, max) => expression, initial value)</li>
+                            <li>keyword 'this' behaves differently in an arrow function vs in a regular function</li>
+                        </ul>
+                    </li>
+                    <li>Newer Javascript Features
+                        <ul>
+                            <li>Default Params - always add them last in argument</li>
+                            <li>Spread in function calls- ex., finding max by adding multiple arguments, but can do the same with an array of elements using "...". This will grab each element in the array and pass through the function</li>
+                            <li>Spread in array literals - ex., can use to combine arrays. const allPets = [...cats, ...dogs]</li>
+                            <li>Spread in object literals - can spread properties from one object into a new object.
+                                <ul>
+                                    <li>If two diff objects have the same property, then the property from the last object will be shown</li>
+                                    <li>If spreading array or string into objects, then indeces will be used as the key</li>
+                                </ul>
+                            <li>Rest params - array-like object, has length property, but not push/pop, not available inside arrow functions, available inside every function. Collects all remaining arguments and puts them in an array.</li>
+                            <li>Destructuring arrays - splits array elements into separate specified variables, order matters   </li>
+                            <li>Destructuring objects - splits object properties into separate variables, order doesn't matter</li>
+                            <li>Destructuring parameters - can deconstruct values that are being passed in</li>
                         </ul>
                     </li>
                 </ul>

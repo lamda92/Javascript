@@ -117,3 +117,35 @@
 //     console.log("MI")
 // }
 
+//Nested Function & Function as an argument
+
+// function callTwice(func){
+//     func();
+//     func();
+// }
+
+// function rollDie() {
+//     const roll = Math.floor(Math.random() * 6) + 1;
+//     console.log(roll);
+// }
+
+// callTwice(rollDie)
+
+//Return Function
+
+// function makeBetweenFunc(min, max){
+//     return function(num){
+//         return num >= min && num <=max;
+//     }
+// }
+
+const prices = [9.99, 1.50, 19.99, 49.99, 30.5];
+
+// let total = 0
+// for (let price of prices){
+//     total += price
+// }
+// console.log(total)
+
+const total = prices.reduceRight((total, price) => {
+    return total + price})
