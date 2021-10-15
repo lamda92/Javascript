@@ -14,8 +14,50 @@
         <h3>Document Object Model (DOM)
         </h3>
         <ul>
-            <li>converts html and css into objects</li>
+            <li>Converts html and css into objects</li>
             <li>Document - object that is entry point into the DOM. Contains representation point of all content on a page.</li>
+            <li>Selecting
+                <ul>
+                    <li>getElementById - pass through ID as a string</li>
+                    <li>getElementsByTagName - pass in tag as a string
+                        <ul>
+                            <li>Returns an HTMLCollection of multiple DOM objects, can use array syntax</li>
+                            <li>Can use indeces, length, For...of</li>
+                        </ul>
+                    </li>
+                    <li>getElementsByClassName</li>
+                    <li>Query Selector
+                        <ul>
+                            <li>document.querySelector - only gives first match, but can use ":nth-of-type()" to select nth object</li>
+                            <li>document.querySelectorAll - returns collection of matching elements</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Manipulating
+                <ul>
+                    <li>Elements
+                        <ul>
+                            <li>innerText - retrieves text between opening and closing tags</li>
+                            <li>innerHTML - retrieves full contents, including HTML content</li>
+                            <li>textContent - shows all markup within the opening and closing tags, including hidden items on page</li>        
+                            <li>document.querySelector().innerText</li>
+                        </ul>
+                    </li>
+                    <li>Attributes
+                        <ul>
+                            <li>getAttribute - getting directly from HTML</li>
+                            <li>setAttribute - changes attribute</li>
+                            <li>document.querySelector('p').setAttribute('old attribute','new attribute'</li>
+                        </ul>
+                    </li>
+                    <li>Changing styles
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </li>
+                 </ul>
+            </li>
         </ul>
     </div>
 </body>
